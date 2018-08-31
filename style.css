@@ -1,0 +1,98 @@
+.a{
+  display: flex;
+  justify-content: center;
+}
+.b{
+  display:flex;
+  justify-content: center;
+}
+.c{
+  display:flex;
+  justify-content: center;
+  }
+.d{
+  display: flex;
+  justify-content: center;
+}
+.e{
+  display:flex;
+  justify-content: center;
+}
+.f{
+  display:flex;
+  justify-content: center;
+}
+.g{
+  display:flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+
+.four{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.four,img{
+  margin: 5px;
+}
+  .a{
+    display: flex;
+    justify-content: center;
+  }
+  .b{
+    display:flex;
+    justify-content: center;
+  }
+  .c{
+    display:flex;
+    justify-content: center;
+    }
+  .d{
+    display: flex;
+    justify-content: center;
+  }
+  .e{
+    display:flex;
+    justify-content: center;
+  }
+  .f{
+    display:flex;
+    justify-content: center;
+  }
+
+   @media only screen and (max-width:424px) {
+     .a{
+       display: flex;
+       justify-content: center;
+     }
+     .a,h1{
+       font-size: 32px;
+     }
+     .b{
+       display:flex;
+       justify-content: center;
+     }
+     .c{
+       display:flex;
+       justify-content: center;
+       }
+     .d{
+       display: flex;
+       justify-content: center;
+     }
+     .e{
+       display:flex;
+       justify-content: center;
+     }
+     .f{
+       display:flex;
+       justify-content: center;
+     }
+     .four{
+       display:flex;
+       justify-content: center;
+       flex-direction: column;
+     }
+}
